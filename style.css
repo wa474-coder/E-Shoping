@@ -1,0 +1,20 @@
+.container{
+    border: 2px solid ;
+    background-color: blue;
+    height: 96vh;
+    border-radius: 25px;
+    margin: 10px;
+    
+}
+.Box{
+    border: 2px solid;
+    background-color: aquamarine;
+    width: 27%;
+    margin: auto;
+    display: inline-block;
+    margin-top: 10px;
+    margin: 35px;
+    height: 35vh;
+    text-align: center;
+    border-radius: 10px;
+}
