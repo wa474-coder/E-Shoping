@@ -3,14 +3,285 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ma boutique</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="Box">Elément1</div>
-        <div class="Box">Elément2</div>
-        <div class="Box">Elément3</div>
-    </div>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>E-Shoping</h1>
+            </div>
+            <div class="FRM">
+                <form action="">
+                <input type="search" name="q" placeholder="Rechercher">
+                <button type="submit">Rechercher</button>
+                </form>
+            </div>
+            <div class="lien">
+                <ul class="menu-précipal">
+                    <li><a href="Accueil.html">Accueil</a></li>
+                    <li class="dropdown">
+                        <a href="produits.html">Produits</a>
+                        <ul class="sous-menu">
+                           <li><a href="tous les produits.html">Tous les Produits</a></li>
+                           <li><a href="#Nouveautés">Nouveautés</a></li>
+                            <li><a href="#promotion">Promation</a></li>
+                            <li><a href="#Par Catégories">Par Catégories</a></li>
+                            <li><a href="meilleurs ventes.html">Meilleurs Ventes</a></li> 
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="Panier.html">Panier</a>
+                        <ul class="sous-menu">
+                            <li><a href="voir les produits.html">Voir les produits</a></li>
+                            <li><a href="choisir votre produits.html">Choisir votre produits</a></li>
+                            <li><a href="#commande">Passer à la commande</a></li>
+                            <li><a href="valider votre commande.html">Valider votre commande</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+          
+        </nav>
+    </header>
+    <section class="PRDT" id="Tous les Produits">
+        <div class="NPT">
+            <h1>Bienvenue dans ma boutique E-Shoing</h1>
+            <p>Découvrez nos Produits et faites vos commandes en toute simplicité</p>
+            <h1>Nos Produits</h1>    
+        </div>
+        <div class="grille">
+        <div class="Produits">
+            <img src="https://cdn.pixabay.com/photo/2011/03/16/16/01/tomatoes-5356_1280.jpg"
+            height="250px" width="250px" alt="Tomate">
+            <h3>Tomates Fraiches</h3>
+            <p class="prix">2500 FCFA</p>
+            <p class="RF">Réf: Marché</p>
+            <button class="btn">Ajouter au Panier</button>
+        </div>
+        <div class="Produits">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.7yHXGMJNlZwMC1lFhbMx4QHaIe?rs=1&pid=ImgDetMain&o=7&rm=3"
+            height="250px" width="250px" alt="Tomate">
+            <h3>Carottes</h3>
+            <p class="prix">1800 FCFA</p>
+            <p class="RF">Réf: Marché</p>
+            <button class="btn">Ajouter au Panier</button>
+        </div>
+        <div class="Produits">
+            <img src="https://produits.bienmanger.com/35111-0w0h0_Pommes_Story_France_Bio.jpg"
+            width="250px" height="250px" alt="Tomate">
+            <h3>Pommes Rouges</h3>
+            <p class="prix">3000 FCFA</p>
+            <p class="RF">Réf: Marché</p>
+            <button class="btn">Ajouter au Panier</button>
+        </div>
+        <div class="Produits">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.jbmXADfB-Io0vpl5ymt3bgHaGV?rs=1&pid=ImgDetMain&o=7&rm=3"
+            width="250px" height="250px" alt="Tomate">
+            <h3>Oignons Blancs</h3>
+            <p class="prix">1500 FCFA</p>
+            <p class="RF">Réf: Marché</p>
+            <button class="btn">Ajouter au Panier</button>
+        </div>  
+        </div> 
+        <div class="ho">
+             <h1>Merci de cliquer sur la vidéo pour mieux comprendre nos produits</h1>
+        </div>
+        <div class="vidéo">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/OgKdf_dgnGM?si=94pYOUYczl3yk9Ag" 
+              title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+              gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        </div>
+        <div class="vidéo">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/JQYSl94F4rM?si=xSRpAhSAWP2vbd1w"
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        </div>
+        
+    </section>
+    <section class="NVTS" id="Nouveautés">
+        <div class="NPT">
+            <h1>Nouveautés</h1> 
+            <p>Découvrez nos nouveaux Produits frais, nturel et de qualité disponibles cette semaine.</p> 
+            <p>Explorez les produits nouvellement ajoutés dans notre boutique pour une alimentation fraiche et saine.</p>  
+        </div>
+        <div class="grille">
+        <div class="Produits">
+            <img src="https://img.mesrecettesfaciles.fr/wp-content/uploads/2018/07/smoothiemangue-1000x500.jpg"
+            height="250px" width="250px" alt="Tomate">
+            <h3>Jus de mangues</h3>
+            <p class="prix">1500 FCFA</p>
+            <p class="RF">Réf: Marché</p>
+            <button class="btn">Ajouter au Panier</button>
+        </div>
+        <div class="Produits">
+            <img src="https://st.depositphotos.com/1006597/1623/i/450/depositphotos_16234965-stock-photo-fresh-citrus-juices.jpg"
+            height="250px" width="250px" alt="Tomate">
+            <h3>Jus naturel</h3>
+            <p class="prix">1500 FCFA</p>
+            <p class="RF">Réf: Marché</p>
+            <button class="btn">Ajouter au Panier</button>
+        </div>
+        <div class="Produits">
+            <img src="https://thumbs.dreamstime.com/b/mangues-jaunes-fra%C3%AEches-37885046.jpg"
+            width="250px" height="250px" alt="Tomate">
+            <h3>Mangues Fraiches</h3>
+            <p class="prix">1000 FCFA</p>
+            <p class="RF">Réf: Marché</p>
+            <button class="btn">Ajouter au Panier</button>
+        </div>
+        <div class="Produits">
+            <img src="https://www.shutterstock.com/shutterstock/videos/1048198363/thumb/1.jpg?ip=x480"
+            width="250px" height="250px" alt="Tomate">
+            <h3>Clémentes Fraiches</h3>
+            <p class="prix">2000 FCFA</p>
+            <p class="RF">Réf: Marché</p>
+            <button class="btn">Ajouter au Panier</button>
+        </div>  
+        </div> 
+    </section>
+     <section class="PMTN" id="promotion">
+        <div class="NPT">
+            <h1>Promation</h1> 
+            <p>Découvrez nos offres promotionnelles disponibles pour une durée limitée</p>   
+        </div>
+        <div class="grille">
+        <div class="Produits">
+            <img src="https://www.shutterstock.com/image-photo/fruits-vegetables-600w-361288721.jpg"
+            height="250px" width="250px" alt="Tomate">
+            <h3>Pack de Légumes</h3>
+            <p class="ancien-prix"><s>6500 FCFA</s></p>
+            <p class="nouveau-prix">5000 FCFA</p>
+            <p class="RF">Réf: Marché</p>
+            <button class="btn">Ajouter au Panier</button>
+        </div>
+        <div class="Produits">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.7yHXGMJNlZwMC1lFhbMx4QHaIe?rs=1&pid=ImgDetMain&o=7&rm=3"
+            height="250px" width="250px" alt="Tomate">
+            <h3>Carottes</h3>
+            <p class="ancien-prix"><s>1800 FCFA</s></p>
+            <p class="nouveau-prix">1300 FCFA</p>
+            <p class="RF">Réf: Marché</p>
+            <button class="btn">Ajouter au Panier</button>
+        </div>
+        <div class="Produits">
+            <img src="https://produits.bienmanger.com/35111-0w0h0_Pommes_Story_France_Bio.jpg"
+            width="250px" height="250px" alt="Tomate">
+            <h3>Pommes Rouges</h3>
+            <p class="ancien-prix"><s>3000 FCFA</s></p>
+            <p class="nouveau-prix">2500 FCFA</p>
+            <p class="RF">Réf: Marché</p>
+            <button class="btn">Ajouter au Panier</button>
+        </div>
+        <div class="Produits">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.jbmXADfB-Io0vpl5ymt3bgHaGV?rs=1&pid=ImgDetMain&o=7&rm=3"
+            width="250px" height="250px" alt="Tomate">
+            <h3>Oignons Blancs</h3>
+            <p class="ancien-prix"><s>1500 FCFA</s></p>
+            <p class="nouveau-prix">1300 FCFA</p>
+            <p class="RF">Réf: Marché</p>
+            <button class="btn">Ajouter au Panier</button>
+        </div>  
+        </div> 
+    </section>
+     <section class="CMD" id="commande">
+        <div class="NPT">
+            <h1>Passez votre Commande</h1>
+            <p>Remplicez votre panier et  validez votre commande facilement</p>  
+        </div>
+        <div class="grille">
+        <div class="Produits">
+            <img src="https://locavor.fr/data/produits/1/21321/21321-panier-de-legumes-deja-prepare-45-personnes-1.jpg" alt="">
+            <form action="">
+                <input type="text" placeholder="votre Nom copmlet">
+                <input type="tel" placeholder="Telephone">
+                <input type="text" placeholder="Addresse">
+                <input type="number" placeholder="Produits">
+                <input type="text" placeholder="Quantité">
+                <button class="btn">Commander</button>   
+            </form>
+        </div>
+        <div class="Produits">
+            <img src="https://www.agrimaroc.ma/wp-content/uploads/emballages-fruits-l%C3%A9gumes.jpeg" alt="">
+            <form action="">
+                <input type="text" placeholder="votre Nom copmlet">
+                <input type="tel" placeholder="Telephone">
+                <input type="text" placeholder="Addresse">
+                <input type="number" placeholder="Produits">
+                <input type="text" placeholder="Quantité">
+                <button class="btn">Commander</button>   
+            </form>
+        </div>
+        <div class="Produits">
+            <img src="https://tse1.explicit.bing.net/th/id/OIP._dl7tppcccwJ5Gv5iqqL3gHaE7?rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+            <form action="">
+                <input type="text" placeholder="votre Nom copmlet">
+                <input type="tel" placeholder="Telephone">
+                <input type="text" placeholder="Addresse">
+                <input type="number" placeholder="Produits">
+                <input type="text" placeholder="Quantité">
+                <button class="btn">Commander</button>   
+            </form>
+        </div>
+        <div class="Produits">
+            <img src="https://uploads.metropoles.com/wp-content/uploads/2015/11/07073037/3feiraceilandia_feijaoefarinha.jpg" alt="">
+            <form action="">
+                <input type="text" placeholder="votre Nom copmlet">
+                <input type="tel" placeholder="Telephone">
+                <input type="text" placeholder="Addresse">
+                <input type="number" placeholder="Produits">
+                <input type="text" placeholder="Quantité">
+                <button class="btn">Commander</button>   
+            </form>
+        </div>
+        </div> 
+    </section>
+     <sectionn class="CTGR">
+        <div class="NPT">
+            <h1>Par Catégories</h1>    
+        </div>
+        <div class="grille">
+        <div class="Produits" id="Par Catégories">
+            <img src="https://images.pexels.com/photos/264537/pexels-photo-264537.jpeg?fit=crop&h=1000&mark=https:%2F%2Fassets.imgix.net%2F~text%3Fbg%3D80000000%26txt%3DPhotos%2Bgratuites%26txtalign%3Dcenter%26txtclr%3Dfff%26txtfont%3DAvenir-Heavy%26txtpad%3D20%26txtsize%3D120%26w%3D1300&markalign=center%2Cmiddle&txt=pexels.com&txtalign=center&txtclr=eeffffff&txtfont=Avenir-Heavy&txtshad=10&txtsize=60&w=1500"
+            height="250px" width="250px" alt="Tomate">
+            <h3>Légumes</h3>
+            <p class="prix">2500 FCFA</p>
+            <p class="RF">Réf: Marché</p>
+            <button class="btn">Ajouter au Panier</button>
+        </div>
+        <div class="Produits">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.A8Fc2rmQQ2M7DR0ppUBy-QHaE1?w=2048&h=1337&rs=1&pid=ImgDetMain&o=7&rm=3"
+            height="250px" width="250px" alt="Tomate">
+            <h3>Fruits</h3>
+            <p class="prix">1800 FCFA</p>
+            <p class="RF">Réf: Marché</p>
+            <button class="btn">Ajouter au Panier</button>
+        </div>
+        <div class="Produits">
+            <img src="https://st4.depositphotos.com/10892488/22583/i/1600/depositphotos_225835298-stock-photo-spices-condiments-food.jpg"
+            width="250px" height="250px" alt="Tomate">
+            <h3>Condiments</h3>
+            <p class="prix">3000 FCFA</p>
+            <p class="RF">Réf: Marché</p>
+            <button class="btn">Ajouter au Panier</button>
+        </div>
+        <div class="Produits">
+            <img src="https://i.pinimg.com/736x/93/e6/7c/93e67c94a5873e4eec7c266275266d9d.jpg"
+            width="250px" height="250px" alt="Tomate">
+            <h3>Céréales</h3>
+            <p class="prix">1500 FCFA</p>
+            <p class="RF">Réf: Marché</p>
+            <button class="btn">Ajouter au Panier</button>
+        </div>  
+        </div> 
+    </section>
+    <footer>
+       <p class="pied">E-Shoping </p> 
+       <p class="pied">Mouhamed Wade</p> 
+    </footer>
 </body>
 </html>
